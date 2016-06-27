@@ -862,7 +862,6 @@ a:hover {
   width: 100%;
   height: 100%;
   z-index: 0;
-  background: url("../../images/noise2.png");
 }
 .counter .content {
   padding-bottom: 50px;
