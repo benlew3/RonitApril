@@ -39,11 +39,18 @@ body {
   font-weight: 300;
   color: #333333;
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
 }
-
+.tags{
+  font-size: 24px;
+}
 .randomname {
-  margin-top: 28vh;
+  margin-top: 20vh;
+  font-size: 30px;
+  color: #000;
+  font-weight: 400;
+}
+.subtitle{
   font-size: 30px;
   color: #000;
 }
@@ -863,6 +870,9 @@ a:hover {
   height: 100%;
   z-index: 0;
 }
+.tagline{
+  color:white;
+}
 .counter .content {
   padding-bottom: 50px;
   padding-top: 50px;
@@ -1333,7 +1343,7 @@ a:hover {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   margin-top: 15px;
   text-align: center;
-  height: 355px;
+  height: 410px;
 }
 .pricing .pricing-table.active {
   margin-top: 0px;
@@ -1367,7 +1377,6 @@ a:hover {
 }
 .pricing .pricing-table .price h3 {
   margin-top: 0px;
-  margin-bottom: 0px;
   font-weight: 400;
   font-family: 'Oswald', sans-serif;
   text-transform: inherit;
@@ -1375,16 +1384,13 @@ a:hover {
   margin-bottom: 3px;
   font-size: 18px;
 }
-#foot {
-  margin-top: 9px;
-}
 .pricing .pricing-table .price .pricetext {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .pricing .pricing-table .list {
   padding: 10px 0px;
@@ -1393,6 +1399,8 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-right: 1vw;
+  margin-left: 1vw;
 }
 .pricing .pricing-table .list ul {
   list-style: none;
@@ -1411,6 +1419,8 @@ a:hover {
 .pricing .pricing-table .list .def-btn:hover {
   color: #ffffff;
 }
+
+
 
 /*==========================================*/
 
@@ -1796,7 +1806,10 @@ a:hover {
 .contact .footer-form .button-container .def-btn:hover {
   color: #ffffff;
 }
-
+.thisbutton{
+  display: flex;
+  justify-content: center;
+}
 /*==========================================*/
 
 /*       17 - Footer Elements

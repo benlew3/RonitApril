@@ -9,7 +9,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["Easing muscle tension.", "Increasing mobility."],
+    strings: ["Easing muscle tension.", "Increasing relaxation.","Release the issues in the tissues."],
     typeSpeed: 30,
     startDelay: 0,
     backSpeed: 30,
